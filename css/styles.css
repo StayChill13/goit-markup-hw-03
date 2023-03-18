@@ -1,0 +1,225 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --success: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --main-background: #ffffff;
+}
+body {
+  color: #434455;
+  background-color: var(--main-background);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/*  H E A D E R */
+
+/* logo */
+.logo {
+  text-decoration: none;
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-studio {
+  color: var(--navy-blue-modal);
+}
+/* navbar */
+.list {
+  list-style: none;
+}
+.nav-link {
+  color: var(--navy-blue-modal);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.link {
+  text-decoration: none;
+}
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+  color: var(--ocean);
+  font-weight: 500;
+}
+
+/* contacts */
+.adress {
+  font-style: normal;
+}
+ul li {
+  list-style-type: none;
+}
+.adress-link {
+  color: var(--slate);
+  font-style: normal;
+  text-decoration: none;
+}
+.adress-link:hover,
+.adress-link:focus,
+.adress-link:active {
+  color: var(--ocean);
+}
+
+/*  H E R O  S E C T I O N */
+
+.hero {
+  background: var(--navy-blue);
+}
+.hero-title {
+  color: var(--main-background);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.hero-btn {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--main-background);
+  width: 169px;
+  height: 56px;
+  left: 636px;
+  top: 428px;
+  background-color: var(--iris);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+
+/*  B E N E F I T S  S E C T I O N */
+.benefits-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+
+.bnfts-subtitle {
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.bnfts-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+/* Section 2 */
+.products-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+/* Section 3 */
+.team {
+  background-color: var(--light);
+}
+.team-member {
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.team-title {
+  color: var(--navy-blue);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-position {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.team-item {
+  background-color: var(--main-background);
+}
+/*  F O O T E R */
+
+.bottom {
+  background-color: var(--navy-blue);
+}
+.logo-studio-dark {
+  color: var(--light);
+}
+.bottom-text {
+  color: var(--accent);
+}
+
+/*  P O R T F O L I O */
+/*  P O R T F O L I O */
+/*  P O R T F O L I O */
+
+.filter-btn {
+  background-color: var(--light);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--ocean);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: var(--main-background);
+}
+.card-name {
+  font-weight: 500;
+  color: var(--navy-blue);
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
